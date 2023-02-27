@@ -25,5 +25,4 @@ int main(void)
     printf("Is %d a root: %d\n", root->right->n, ret);
     ret = binary_tree_is_root(root->right->right);
     printf("Is %d a root: %d\n", root->right->right->n, ret);
-    return (0);
-}
+    return (0)
